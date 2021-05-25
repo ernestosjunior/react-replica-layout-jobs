@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap");
+
+html {
+  background-color: #effafa;
+}
+
+body,
+* {
+  font-family: "Spartan", sans-serif;
+}
+
+header {
+  background-image: url("./assets/bg-header-desktop.svg");
+
+  background-color: #5ca5a5;
+  min-height: 156px;
+  width: 100%;
+}
+
+.main-container {
+  margin-top: 76px;
+  margin-bottom: 76px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 128px;
+  gap: 24px;
+}
